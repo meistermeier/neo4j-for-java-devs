@@ -28,5 +28,6 @@ public class driver_filter {
                 record.get("name"), record.get("titles"));
         });
 
+        driver.close();
     }
 }

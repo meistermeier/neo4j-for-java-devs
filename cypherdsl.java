@@ -39,5 +39,7 @@ public class cypherdsl {
                 record.get("name"), record.get("titles"));
         });
 
+        driver.close();
+
     }
 }

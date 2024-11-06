@@ -25,5 +25,6 @@ public class driver_basic {
                 record.get("name"), record.get("titles"));
         });
 
+        driver.close();
     }
 }
