@@ -32,7 +32,7 @@ public class spring_data_neo4j {
 
     @Bean
     public CommandLineRunner commandLineRunner(PersonRepository repository) {
-        return _ -> out.println(repository.findByName("Laurence Fishburne"));
+        return args -> out.println(repository.findByName(args[0]));
     }
 
     @Bean
