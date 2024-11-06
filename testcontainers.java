@@ -7,7 +7,7 @@ import org.neo4j.driver.GraphDatabase;
 import org.testcontainers.containers.Neo4jContainer;
 
 import static java.lang.System.out;
-import static org.neo4j.driver.AuthTokens.*;
+import static org.neo4j.driver.AuthTokens.basic;
 
 public class testcontainers {
 
