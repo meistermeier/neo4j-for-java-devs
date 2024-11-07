@@ -13,6 +13,10 @@ NEO4J_PASSWORD
 
 ## Driver basic example
 
+[GitHub: https://github.com/neo4j/neo4j-java-driver/](https://github.com/neo4j/neo4j-java-driver/)
+
+[Documentation: https://neo4j.com/docs/java-manual/current/](https://neo4j.com/docs/java-manual/current/)
+
 ```shell
 jbang driver_basic.java
 ```
@@ -25,11 +29,30 @@ jbang driver_filter.java "<actor name>"
 
 ## Neo4j Cypher DSL example
 
+[GitHub: https://github.com/neo4j/cypher-dsl](https://github.com/neo4j/cypher-dsl)
+
+[Documentation: https://neo4j.github.io/cypher-dsl/](https://neo4j.github.io/cypher-dsl/)
+
 ```shell
 jbang cypherdsl.java "<actor name>"
 ```
 
+## Neo4j JDBC example
+
+[GitHub: https://github.com/neo4j/neo4j-jdbc](https://github.com/neo4j/neo4j-jdbc)
+
+[Documentation: http://neo4j.github.io/neo4j-jdbc/](http://neo4j.github.io/neo4j-jdbc/)
+
+```shell
+jbang jdbc_driver.java "<actor name>"
+```
+
 ## Spring Data Neo4j example
+
+[GitHub: https://github.com/spring-projects/spring-data-neo4j](https://github.com/spring-projects/spring-data-neo4j)
+
+[Documentation: https://docs.spring.io/spring-data/neo4j/reference/#reference](https://docs.spring.io/spring-data/neo4j/reference/#reference)
+
 To change the connection parameters, you could either edit the _application.properties_ 
 or pass in the environment variables
 
